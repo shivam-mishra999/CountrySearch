@@ -24,7 +24,7 @@ export default function Search() {
   return (
     <div className={styles.container}>
         <div className={styles.input}>
-            <input type="text" placeholder="search for countries" value={searchTerm} onChange={handleChange} />
+            <input type="text" placeholder="Search for countries..." value={searchTerm} onChange={handleChange} />
         </div>
         
         <div className={styles.countryContainer}>
