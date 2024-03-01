@@ -29,7 +29,7 @@ export default function Search() {
         
         <div className={styles.countryContainer}>
             {filteredCountries.map((country) => (
-                <div className="countryCard" key={country.cca3}>
+                <div className={styles.countryCard} key={country.cca3}>
                     <img className={styles.flag} src={country.flags.png} alt={country.cca3}/>
                     <h2>{country.name.common}</h2>
                 </div>
